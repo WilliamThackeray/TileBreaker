@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tile Breaker</title>
+
+    <style>
+      #menuWindow {
+        width: 100%;
+        height: 15vh;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      #menuOptions ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        list-style-type: none;
+      }
+      #gameWindow {
+        width: 100%;
+        height: 80vh;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="menuWindow">
+      <h1>Tile Breaker</h1>
+      <section id="menuOptions">
+        <ul>
+          <li><button id="mainMenuBtn">Main Menu</button></li>
+          <li><button id="levelsBtn">Levels</button></li>
+          <li><button id="editorBtn">Level Editor</button></li>
+        </ul>
+      </section>
+    </header>
+    <main id="gameWindow"></main>
+  </body>
+</html>
